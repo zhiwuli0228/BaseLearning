@@ -1,7 +1,7 @@
 package com.zhiwu.ioc.service.impl;
 
-import com.zhiwu.base.learn.baselearning.ioc.pojo.Student;
-import com.zhiwu.base.learn.baselearning.ioc.service.StudentService;
+import com.zhiwu.ioc.pojo.Student;
+import com.zhiwu.ioc.service.StudentService;
 
 /**
  * 功能：

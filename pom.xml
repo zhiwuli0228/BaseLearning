@@ -23,6 +23,7 @@
     </developers>
     <modules>
         <module>spring-ioc</module>
+        <module>spring-tx</module>
     </modules>
     <scm>
         <connection/>
