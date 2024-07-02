@@ -24,6 +24,7 @@
     <modules>
         <module>spring-ioc</module>
         <module>spring-tx</module>
+        <module>spring-task</module>
     </modules>
     <scm>
         <connection/>
