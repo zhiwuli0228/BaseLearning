@@ -25,6 +25,7 @@
         <module>spring-ioc</module>
         <module>spring-tx</module>
         <module>spring-task</module>
+        <module>spring-mvc-01</module>
     </modules>
     <scm>
         <connection/>
