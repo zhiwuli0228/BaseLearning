@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zhiwu.dao.mapper.StudentMapper">
+    <select id="selectStudent" parameterType="int" resultType="com.zhiwu.pojo.Student">
+        SELECT *
+        from student
+        where id = #{id}
+    </select>
+
+    <delete id="deleteStudent" >
+
+    </delete>
+
+    <insert id="insertStudent">
+        insert into student
+        values (null, #{name}, #{sex}, #{address})
+    </insert>
+
+</mapper>
